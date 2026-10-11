@@ -30,7 +30,7 @@ const listAllUsers = () => {
 };
 
 const findUserById = (id) => {
-  return userItems.find((item) => item.user_id === id);
+  return userItems.find((item) => item.user_id == id);
 };
 
 const addUser = (user) => {
