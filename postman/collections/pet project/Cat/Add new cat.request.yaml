@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/v1/cats
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "cat_name": "Luna",
+      "weight": 4,
+      "owner": 3609,
+      "filename": "luna123",
+      "birthdate": "2023-05-20"
+    }
+examples: .resources/Add new cat.resources/examples
+order: 2000

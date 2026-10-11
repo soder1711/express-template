@@ -1,0 +1,6 @@
+name: cat project local
+values:
+  - key: cat_api_port
+    value: ''
+  - key: pet_api_url
+    value: ''

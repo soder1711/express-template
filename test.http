@@ -1,0 +1,26 @@
+### Get all cats
+GET http://localhost:3000/api/v1/cats
+
+### Get one cat by id
+GET http://localhost:3000/api/v1/cats/9592
+
+### Add a new cat
+POST http://localhost:3000/api/v1/cats
+Content-Type: application/json
+
+{
+  "cat_name": "Luna",
+  "weight": 4,
+  "owner": 3609,
+  "filename": "luna123",
+  "birthdate": "2023-05-20"
+}
+
+### Get all cats again
+GET http://localhost:3000/api/v1/cats
+
+### Update a cat
+PUT http://localhost:3000/api/v1/cats/9592
+
+### Delete a cat
+DELETE http://localhost:3000/api/v1/cats/9592
