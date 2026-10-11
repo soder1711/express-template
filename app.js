@@ -21,7 +21,6 @@ app.get('/api/v1/cats', (req, res) => {
     image: 'http://localhost:3000/public/trailblazer.jpg'
   };
   res.json(cat);
-
 });
 
 app.listen(port, hostname, () => {
